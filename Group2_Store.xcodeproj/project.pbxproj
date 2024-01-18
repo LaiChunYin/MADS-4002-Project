@@ -34,7 +34,7 @@
 		FAC820622B59BBE300BA65C8 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		FAC820642B59BBFE00BA65C8 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		FAC820662B59BC1400BA65C8 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
-		FAEAC27E2B5989EB00E4B68F /* Group1_Store */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Group1_Store; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEAC27E2B5989EB00E4B68F /* Group2_Store */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Group2_Store; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAEAC2812B5989EB00E4B68F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		FAEAC2882B598CF400E4B68F /* isPurchasable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isPurchasable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,7 +80,7 @@
 		FAEAC2752B5989EB00E4B68F = {
 			isa = PBXGroup;
 			children = (
-				FAEAC2802B5989EB00E4B68F /* Group1_Store */,
+				FAEAC2802B5989EB00E4B68F /* Group2_Store */,
 				FAEAC27F2B5989EB00E4B68F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,12 +88,12 @@
 		FAEAC27F2B5989EB00E4B68F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FAEAC27E2B5989EB00E4B68F /* Group1_Store */,
+				FAEAC27E2B5989EB00E4B68F /* Group2_Store */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FAEAC2802B5989EB00E4B68F /* Group1_Store */ = {
+		FAEAC2802B5989EB00E4B68F /* Group2_Store */ = {
 			isa = PBXGroup;
 			children = (
 				FAEAC2812B5989EB00E4B68F /* main.swift */,
@@ -101,15 +101,15 @@
 				FAC8205B2B599E3F00BA65C8 /* Item */,
 				FAC8205D2B599E7200BA65C8 /* Store */,
 			);
-			path = Group1_Store;
+			path = Group2_Store;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FAEAC27D2B5989EB00E4B68F /* Group1_Store */ = {
+		FAEAC27D2B5989EB00E4B68F /* Group2_Store */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FAEAC2852B5989EB00E4B68F /* Build configuration list for PBXNativeTarget "Group1_Store" */;
+			buildConfigurationList = FAEAC2852B5989EB00E4B68F /* Build configuration list for PBXNativeTarget "Group2_Store" */;
 			buildPhases = (
 				FAEAC27A2B5989EB00E4B68F /* Sources */,
 				FAEAC27B2B5989EB00E4B68F /* Frameworks */,
@@ -119,9 +119,9 @@
 			);
 			dependencies = (
 			);
-			name = Group1_Store;
+			name = Group2_Store;
 			productName = Group1_Store;
-			productReference = FAEAC27E2B5989EB00E4B68F /* Group1_Store */;
+			productReference = FAEAC27E2B5989EB00E4B68F /* Group2_Store */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -139,7 +139,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FAEAC2792B5989EB00E4B68F /* Build configuration list for PBXProject "Group1_Store" */;
+			buildConfigurationList = FAEAC2792B5989EB00E4B68F /* Build configuration list for PBXProject "Group2_Store" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -152,7 +152,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FAEAC27D2B5989EB00E4B68F /* Group1_Store */,
+				FAEAC27D2B5989EB00E4B68F /* Group2_Store */,
 			);
 		};
 /* End PBXProject section */
@@ -314,7 +314,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FAEAC2792B5989EB00E4B68F /* Build configuration list for PBXProject "Group1_Store" */ = {
+		FAEAC2792B5989EB00E4B68F /* Build configuration list for PBXProject "Group2_Store" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FAEAC2832B5989EB00E4B68F /* Debug */,
@@ -323,7 +323,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FAEAC2852B5989EB00E4B68F /* Build configuration list for PBXNativeTarget "Group1_Store" */ = {
+		FAEAC2852B5989EB00E4B68F /* Build configuration list for PBXNativeTarget "Group2_Store" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FAEAC2862B5989EB00E4B68F /* Debug */,
