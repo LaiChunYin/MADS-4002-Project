@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA7CFCC82B60B17800F0F22F /* OwnedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7CFCC72B60B17800F0F22F /* OwnedItem.swift */; };
 		FAC8205F2B59BB9A00BA65C8 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC8205E2B59BB9A00BA65C8 /* Item.swift */; };
 		FAC820612B59BBAA00BA65C8 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC820602B59BBAA00BA65C8 /* Game.swift */; };
 		FAC820632B59BBE300BA65C8 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC820622B59BBE300BA65C8 /* Movie.swift */; };
 		FAC820652B59BBFE00BA65C8 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC820642B59BBFE00BA65C8 /* Store.swift */; };
 		FAC820672B59BC1400BA65C8 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC820662B59BC1400BA65C8 /* Customer.swift */; };
 		FAEAC2822B5989EB00E4B68F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEAC2812B5989EB00E4B68F /* main.swift */; };
-		FAEAC2892B598CF400E4B68F /* isPurchasable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEAC2882B598CF400E4B68F /* isPurchasable.swift */; };
+		FAEAC2892B598CF400E4B68F /* IsPurchasable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEAC2882B598CF400E4B68F /* IsPurchasable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FA7CFCC72B60B17800F0F22F /* OwnedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnedItem.swift; sourceTree = "<group>"; };
 		FAC8205E2B59BB9A00BA65C8 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		FAC820602B59BBAA00BA65C8 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		FAC820622B59BBE300BA65C8 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
@@ -36,7 +38,7 @@
 		FAC820662B59BC1400BA65C8 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 		FAEAC27E2B5989EB00E4B68F /* Group2_Store */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Group2_Store; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAEAC2812B5989EB00E4B68F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		FAEAC2882B598CF400E4B68F /* isPurchasable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isPurchasable.swift; sourceTree = "<group>"; };
+		FAEAC2882B598CF400E4B68F /* IsPurchasable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsPurchasable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +55,9 @@
 		FAC8205B2B599E3F00BA65C8 /* Item */ = {
 			isa = PBXGroup;
 			children = (
-				FAEAC2882B598CF400E4B68F /* isPurchasable.swift */,
+				FAEAC2882B598CF400E4B68F /* IsPurchasable.swift */,
 				FAC8205E2B59BB9A00BA65C8 /* Item.swift */,
+				FA7CFCC72B60B17800F0F22F /* OwnedItem.swift */,
 				FAC820602B59BBAA00BA65C8 /* Game.swift */,
 				FAC820622B59BBE300BA65C8 /* Movie.swift */,
 			);
@@ -162,12 +165,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAEAC2892B598CF400E4B68F /* isPurchasable.swift in Sources */,
+				FAEAC2892B598CF400E4B68F /* IsPurchasable.swift in Sources */,
 				FAC820672B59BC1400BA65C8 /* Customer.swift in Sources */,
 				FAC820612B59BBAA00BA65C8 /* Game.swift in Sources */,
 				FAC8205F2B59BB9A00BA65C8 /* Item.swift in Sources */,
 				FAC820652B59BBFE00BA65C8 /* Store.swift in Sources */,
 				FAEAC2822B5989EB00E4B68F /* main.swift in Sources */,
+				FA7CFCC82B60B17800F0F22F /* OwnedItem.swift in Sources */,
 				FAC820632B59BBE300BA65C8 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

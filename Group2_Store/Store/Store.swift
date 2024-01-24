@@ -55,11 +55,11 @@ class Store {
     
     func buyItem(customer: Customer, itemId: Int) {
         if let itemToBeBought = self.findById(id: itemId) {
-            if itemToBeBought.price > customer.balance{
+            guard itemToBeBought.price <= customer.balance else {
                 print("Not enough balance.")
                 return
             }
-            if customer.itemsList.contains(where: {$0.id == itemId}){
+            guard !customer.itemsList.contains(where: {$0.id == itemId}) else {
                 print("Item bought already.")
                 return
             }
@@ -67,7 +67,7 @@ class Store {
             customer.balance -= itemToBeBought.price
             customer.itemsList.append(OwnedItem(item: itemToBeBought))
             print("Purchase success!")
-            itemToBeBought.printReceipt(isRefund: false, amount: 1)
+            itemToBeBought.printReceipt(isRefund: false, amount: itemToBeBought.price)
             
         }
         else{
@@ -79,14 +79,14 @@ class Store {
     func issueRefund(customer: Customer, itemId: Int) {
         if let index = customer.itemsList.firstIndex(where: {$0.id == itemId}) {
             let itemToBeRefunded = customer.itemsList[index]
-            if itemToBeRefunded.minutesUsed >= 30{
+            guard itemToBeRefunded.minutesUsed < 30 else {
                 print("The item has already been used for more than 30 minutes.")
                 return
             }
             
             customer.balance += itemToBeRefunded.price
             customer.itemsList.remove(at: index)
-            itemToBeRefunded.printReceipt(isRefund: true, amount: 1)
+            itemToBeRefunded.printReceipt(isRefund: true, amount: itemToBeRefunded.price)
             
         }
         else{

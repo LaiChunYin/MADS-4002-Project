@@ -32,19 +32,12 @@ class Item: IsPurchasable {
             """)
         if isRefund {
             print("We are refunding the purchase of Heroes: \(self.title)")
-            print("Refund amount: $\(self.price * amount)")
+            print("Refund amount: $\(amount)")
         }
         else {
             print("Thank you for purchasing Heroes: \(self.title)")
-            print("Purchase amount: $\(self.price * amount)")
+            print("Purchase amount: $\(amount)")
         }
     }
 }
 
-
-class OwnedItem: Item {
-    var minutesUsed: Int = 0
-    convenience init(item: Item){
-        self.init(id: item.id, title: item.title, price: item.price)
-    }
-}

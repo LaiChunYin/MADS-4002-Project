@@ -19,8 +19,6 @@ class Customer {
     
     func useItem(id: Int, numMinutes: Int) {
         for item in itemsList {
-            print("info is \(item.info)")
-            
             if(item.id == id){
                 item.minutesUsed += numMinutes
                 break
