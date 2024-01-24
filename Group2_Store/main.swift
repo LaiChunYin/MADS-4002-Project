@@ -22,6 +22,7 @@ print("movie_2 info: \(movie_2.info)")
 print("game_1 info: \(game_1.info)")
 print("game_1 info: \(game_2.info)")
 
+print("---------Create a store without any item---------")
 Store(items: [])
 print("\n---------Creating a store and adding the movies and games---------")
 let store = Store(items: [movie_1, movie_2, game_1, game_2])!
